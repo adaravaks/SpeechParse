@@ -3,4 +3,4 @@ It is a desktop app capable of recognising Russian speech from audio files or fr
 
 ![screenshot](screenshots/1.png)
 
-If you wish to launch it, you need Git and Python 3.12. Once you have both, you can execute ```git clone```, then ```cd SpeechParse```, then ```python main.py```
+If you wish to launch it, you need Git and Python 3.12. Once you have both, you can execute ```git clone https://github.com/adaravaks/SpeechParse```, then ```cd SpeechParse```, then ```python main.py```
