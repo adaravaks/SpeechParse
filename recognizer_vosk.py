@@ -49,7 +49,6 @@ class SpeechRecognizer:
         if done:
             done()  # signal that recognition finished
 
-    # ---------------- File recognition (single pass) ----------------
     def recognize_from_file(self, wav_path: str) -> str:
         wf = wave.open(wav_path, "rb")
         if wf.getnchannels() != 1 or wf.getsampwidth() != 2 or wf.getframerate() != 16000:
